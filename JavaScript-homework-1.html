@@ -30,7 +30,7 @@
 
     var g = 10;
     console.log(g);
-    var h = 2;
+    var h = 1;
     console.log(h);
     var i = g / h;
     console.log(i);
@@ -51,9 +51,30 @@
     var statement = "My name is " + name;
     console.log(statement);
 
-    //strings step four''
+    //strings step four//
     var greeting = "Hi, " + statement;
     console.log(greeting);
 
+    //function step one//
+    function squareIt(x){
+      var squared = Math.pow(x,2);
+      return squared;
+    }
+
+    //function step two//
+    console.log(squareIt(x));
+    console.log(squareIt(y));
+    console.log(squareIt(a));
+
+    //function step three//
+    function fullName(firstName, middleName, lastName){
+      var fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+
+    //function step four//
+    console.log(fullName("Donald", "John", "Trump"));
+    console.log(fullName("Barack", "Hussein", "Obama"));
+    console.log(fullName("George", "Walker", "Bush"));
   </script>
 </html>
